@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<title>学生成绩管理系统</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> 
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); 
+function hideURLbar()
+{ 
+	window.scrollTo(0,1); 
+	} 
+</script>
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/style-responsive.css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/font.css" type="text/css"/>
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<script src="js/jquery2.0.3.min.js"></script>
+</head>
+<body>
+<div class="log-w3">
+<div class="w3layouts-main">
+	<h2>学生成绩管理系统</h2>
+	<h2>登录</h2>
+		<form action="login.php" method="post" >
+			<input type="text" class="ggg"     name="zh"       placeholder="账号" required="">
+			<input type="password" class="ggg" name="password" placeholder="密码" required="">
+			<center><span><input type="radio" name="user" value="1" />管理员</span>
+			<span><input type="radio" name="user" value="2" />教师</span>
+                        <span><input type="radio" name="user" value="3" />学生</span></center>
+				<div class="clearfix"></div>
+				<input type="submit" value="登   录" name="login">
+		</form>
+</div>
+</div>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/jquery.slimscroll.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
+<script src="js/jquery.scrollTo.js"></script>
+</body>
+</html>
